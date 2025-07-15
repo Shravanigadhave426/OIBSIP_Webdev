@@ -47,39 +47,44 @@
 Use justify-content for main axis alignment (e.g., horizontal in row).
 
 Use align-items for cross axis alignment (e.g., vertical in row). */
-/* hero {
-  background-color: #f5f5f5;
-  width: 100%;
-  height: 700px;
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-}
-.anim {
-    width: 100%;
-    height: 100%;
-    font-size: 30px;
-    color: rgb(9, 9, 10);
-}
-.animm{
-     width: 100%;
-    height: 100%;
-    font-size: 30px;
-    color: rgb(53, 53, 198);
-}
-.des {
-    font-size: 20px;
-    color: #333;
-    margin-top: 10px;
+ 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5%;
+    
 }
 
- .img {
+.content {
     flex: 1;
+    max-width: 6000px;
+    padding-left:300px ;
+}
+.content h2 {
+    font-size: 44px;
+    font-weight: bold;
+    color: black;
+}
+.content h1 {
+    font-size: 78px;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #020202;
+}
+
+.image {
     text-align: right;
-    height: 100%;
+    height: 0%;
     width: 50%;
-    
- } */
+    margin: 30%;
+    border-;
+}
 
 * {
     margin: 0;
@@ -190,84 +195,4 @@ a:hover {
 }
 
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
-    height: 100%;
-}
 
-.content {
-    flex: 1;
-    max-width: 600px;
-}
-
-.content h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.content p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    color: #ccc;
-}
-
-.image {
-    flex: 1;
-    text-align: right;
-    height: 100%;
-    width: 50%;
-
-}
-
-/* .image img {
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: cover;
-    border-end-end-radius: 10%;
-} */
-
-
-
-
-
-
-
-
-/* content */
-/* .content {
-  margin-top: 7%;
-  max-width: 600px;
-  padding: 0 0 0 70px;
-}
-.content h2 {
-  font-size: 700px;
-  color: #222;
-}
-.content p {
-  padding-top: 10px;
-  margin: 10px 0 30px;
-  color: #333;
-  animation-delay: 0.5s;
-}
-.content .btn2 {
-  padding: 15px 80px;
-  animation-delay: 1s;
-}
-.btn2:hover {
-  border-top-right-radius: 30px;
-}
-
-/* Image */
-/* .feature-img {
-  padding-top: 50px;
-  width: 300px;
-  height: 20px;
-  position: absolute;
-  top: 0;
-  right: 12%;
-} */ 
